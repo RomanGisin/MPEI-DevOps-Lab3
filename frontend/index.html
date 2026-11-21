@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба 3: Бронирование билетов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Тест конкурентного бронирования</h1>
+    <p>Цель: доказать, что бэкенд не продает билетов больше, чем есть.</p>
+    
+    <div class="controls">
+        <button id="create-event">1. Создать событие (1 билет)</button>
+        <button id="buy-tickets">2. Отправить 10 одновременных запросов</button>
+        <button id="check-tickets">3. Проверить остаток билетов</button>
+    </div>
+
+    <div id="logs">
+        <h3>Логи:</h3>
+        <!-- Сюда скрипт будет выводить результаты -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

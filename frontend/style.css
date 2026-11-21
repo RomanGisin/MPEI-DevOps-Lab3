@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 20px; background: #f9f9f9; color: #333; }
+.controls { margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+button { padding: 10px 15px; cursor: pointer; font-size: 16px; border: none; border-radius: 4px; background: #007bff; color: white; }
+button:hover { background: #0056b3; }
+#logs { background: #fff; padding: 15px; border-radius: 5px; border: 1px solid #ccc; height: 400px; overflow-y: auto; font-family: monospace; }
+.log-success { color: green; font-weight: bold; }
+.log-error { color: red; font-weight: bold; }
+.log-info { color: blue; }
